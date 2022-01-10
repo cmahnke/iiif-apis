@@ -273,7 +273,6 @@
     </plugins>
   </build>
 
-
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh-snapshots</id>
@@ -307,6 +306,22 @@
   </reporting>
 
   <profiles>
+    <profile>
+      <id>github</id>
+      <activation>
+        <property>
+          <name>gitHubDeploy</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/cmahnke/hymir-quality-services</url>
+        </repository>
+      </distributionManagement>
+    </profile>
     <profile>
       <id>deploy</id>
       <build>

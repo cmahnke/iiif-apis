@@ -71,7 +71,7 @@ public abstract class Resource<T> implements Choice<T> {
   private PropertyValue attribution;
 
   @JsonProperty("license")
-  private List<URI> licenses;
+  private List<String> licenses;
 
   @JsonProperty("logo")
   private List<ImageContent> logos;
@@ -238,19 +238,19 @@ public abstract class Resource<T> implements Choice<T> {
     return this;
   }
 
-  public List<URI> getLicenses() {
+  public List<String> getLicenses() {
     return licenses;
   }
 
   @JsonIgnore
-  public URI getFirstLicense() {
+  public String getFirstLicense() {
     if (licenses == null || licenses.isEmpty()) {
       return null;
     }
     return licenses.get(0);
   }
 
-  public void setLicenses(List<URI> licenses) {
+  public void setLicenses(List<String> licenses) {
     this.licenses = licenses;
   }
 
@@ -258,8 +258,8 @@ public abstract class Resource<T> implements Choice<T> {
     if (this.licenses == null) {
       this.licenses = new ArrayList<>();
     }
-    this.licenses.add(URI.create(first));
-    Arrays.stream(rest).map(URI::create).forEach(licenses::add);
+    this.licenses.add(first);
+    Arrays.stream(rest).forEach(licenses::add);
     return this;
   }
 

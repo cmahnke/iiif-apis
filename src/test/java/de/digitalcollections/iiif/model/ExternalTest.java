@@ -1,6 +1,7 @@
 package de.digitalcollections.iiif.model;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.io.Resources;
@@ -114,6 +115,21 @@ public class ExternalTest {
     Manifest manifest =
         readFromResources("textgridlab.org-textgrid:3b09k.0-manifest.json", Manifest.class);
     assertThat(manifest).isNotNull();
+  }
+
+  @Test
+  public void testGDZWithStringAsRightsStatement() throws Exception {
+    Manifest manifest =
+            readFromResources("DE-611-HS-3461927.json", Manifest.class);
+    assertThat(manifest).isNotNull();
+  }
+
+  @Test
+  public void testSammlungsportalGoettingenMultilangAttribution() throws Exception {
+    Exception exception = assertThrows(com.fasterxml.jackson.databind.JsonMappingException.class, () -> {
+    Manifest manifest =
+            readFromResources("record_DE-MUS-062622_kenom_127703.json", Manifest.class);
+    });
   }
 
   @Test

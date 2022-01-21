@@ -1,0 +1,212 @@
+{
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/manifest/",
+    "@type" : "sc:Manifest",
+    "label" : "Denar, 101 - 102 n. Chr.; Rom, Kaiserzeit; Trajan <Römisches Reich, Kaiser>",
+    "attribution" : {
+        "de" : [
+            "Georg-August Universität Göttingen"
+        ],
+        "en" : [
+            "Goobi viewer"
+        ]
+    },
+    "logo" : {
+        "@id" : "https://sammlungen.uni-goettingen.de/api/v1/images/external/file:U002FU002FU002FoptU002FdigiversoU002FviewerU002Fcms_mediaU002Flogo_unigoe_iiif.png/full/max/0/default.png",
+        "@type" : "dcTypes:Image"
+    },
+    "thumbnail" : {
+        "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg/full/!400,400/0/default.jpg",
+        "@type" : "dcTypes:Image",
+        "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "metadata" : [
+        {
+            "label" : "Name des Standorts",
+            "value" : "Münzkabinett der Universität Göttingen"
+        },
+        {
+            "label" : "Inventarnummer",
+            "value" : "AS-01305"
+        },
+        {
+            "label" : "Datierung",
+            "value" : "101 - 102 n. Chr."
+        },
+        {
+            "label" : "weitere Informationen / further information",
+            "value" : "http://hdl.handle.net/428894.vzg/cb72f562-f9a8-4cff-84e8-1d66f175ea67"
+        },
+        {
+            "label" : "Bildrechte",
+            "value" : "Namensnennung-Nicht kommerziell 4.0 Deutschland (CC BY-NC 4.0 DE)"
+        },
+        {
+            "label" : "Koordinaten des Standorts",
+            "value" : "51.53899 9.93734"
+        },
+        {
+            "label" : "Ort",
+            "value" : "Rom, Kaiserzeit; Rom / Roma / Rome; Rom"
+        },
+        {
+            "label" : "Maße / Umfang",
+            "value" : "Gewicht: 3.013 g"
+        }
+    ],
+    "service" : {
+        "@context" : "http://iiif.io/api/search/1/context.json",
+        "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/manifest/search",
+        "profile" : "http://iiif.io/api/search/1/search",
+        "service" : {
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/manifest/autocomplete",
+            "profile" : "http://iiif.io/api/search/1/autocomplete"
+        },
+        "label" : {
+            "de" : [
+                "Annotationen innerhalb des Manifests durchsuchen"
+            ],
+            "en" : [
+                "Search annotations within the manifest"
+            ]
+        }
+    },
+    "seeAlso" : {
+        "@id" : "https://sammlungen.uni-goettingen.de/lidoresolver?id=record_DE-MUS-062622_kenom_127703",
+        "label" : "LIDO",
+        "format" : "text/xml"
+    },
+    "rendering" : [
+        {
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pdf/",
+            "@type" : "dcTypes:Image",
+            "label" : "PDF",
+            "format" : "application/pdf"
+        },
+        {
+            "@id" : "https://sammlungen.uni-goettingen.de/objekt/record_DE-MUS-062622_kenom_127703/1/-/",
+            "@type" : "dcTypes:InteractiveResource",
+            "label" : "Goobi viewer",
+            "format" : "text/html"
+        },
+        {
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/plaintext/",
+            "@type" : "dcTypes:Text",
+            "label" : "Fulltext",
+            "format" : "text/plain"
+        },
+        {
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/alto/",
+            "@type" : "dcTypes:Text",
+            "label" : "ALTO",
+            "format" : "text/xml"
+        }
+    ],
+    "sequences" : [
+        {
+            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/sequence/base/",
+            "@type" : "sc:Sequence",
+            "viewingHint" : "paged",
+            "within" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/manifest/",
+            "canvases" : [
+                {
+                    "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/1/canvas/",
+                    "@type" : "sc:Canvas",
+                    "label" : " - ",
+                    "thumbnail" : {
+                        "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg/full/!400,400/0/default.jpg",
+                        "@type" : "dcTypes:Image"
+                    },
+                    "rendering" : [
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg/full.pdf",
+                            "@type" : "dcTypes:Image",
+                            "label" : "PDF",
+                            "format" : "application/pdf"
+                        },
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/objekt/record_DE-MUS-062622_kenom_127703/1/",
+                            "@type" : "dcTypes:InteractiveResource",
+                            "label" : "Goobi viewer",
+                            "format" : "text/html"
+                        }
+                    ],
+                    "within" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/sequence/base/",
+                    "width" : 2145,
+                    "height" : 2146,
+                    "images" : [
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/1/canvas/image/1/",
+                            "@type" : "oa:Annotation",
+                            "motivation" : "sc:painting",
+                            "resource" : {
+                                "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg/full/!400,400/0/default.jpg",
+                                "@type" : "dcTypes:Image",
+                                "width" : 2145,
+                                "height" : 2146,
+                                "format" : "image/jpeg",
+                                "service" : {
+                                    "@context" : "http://iiif.io/api/image/2/context.json",
+                                    "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_vs.jpg",
+                                    "profile" : "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/1/canvas/"
+                        }
+                    ]
+                },
+                {
+                    "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/2/canvas/",
+                    "@type" : "sc:Canvas",
+                    "label" : " - ",
+                    "thumbnail" : {
+                        "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_rs.jpg/full/!400,400/0/default.jpg",
+                        "@type" : "dcTypes:Image"
+                    },
+                    "rendering" : [
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_rs.jpg/full.pdf",
+                            "@type" : "dcTypes:Image",
+                            "label" : "PDF",
+                            "format" : "application/pdf"
+                        },
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/objekt/record_DE-MUS-062622_kenom_127703/2/",
+                            "@type" : "dcTypes:InteractiveResource",
+                            "label" : "Goobi viewer",
+                            "format" : "text/html"
+                        }
+                    ],
+                    "within" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/sequence/base/",
+                    "width" : 2138,
+                    "height" : 2139,
+                    "images" : [
+                        {
+                            "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/2/canvas/image/1/",
+                            "@type" : "oa:Annotation",
+                            "motivation" : "sc:painting",
+                            "resource" : {
+                                "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_rs.jpg/full/!400,400/0/default.jpg",
+                                "@type" : "dcTypes:Image",
+                                "width" : 2138,
+                                "height" : 2139,
+                                "format" : "image/jpeg",
+                                "service" : {
+                                    "@context" : "http://iiif.io/api/image/2/context.json",
+                                    "@id" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/files/images/record_DE-MUS-062622_kenom_127703_rs.jpg",
+                                    "profile" : "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on" : "https://sammlungen.uni-goettingen.de/api/v1/records/record_DE-MUS-062622_kenom_127703/pages/2/canvas/"
+                        }
+                    ]
+                }
+            ],
+            "viewingDirection" : "left-to-right"
+        }
+    ]
+}
